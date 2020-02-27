@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16fc7ba8-71eb-465c-a074-44c779f99cde" name="Default Changelist" comment="" />
+    <list default="true" id="16fc7ba8-71eb-465c-a074-44c779f99cde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CustomMissingUserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PaymentServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PaymentServiceShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PaymentServiceShould.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PaymentServiceShould.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +22,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YOLsRAPLIRUczt8cWpDkZXsykz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +67,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentServiceShould.missing_user_throws_a_CustomMissingUserException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaymentService" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PaymentServiceShould" />
+      <option name="METHOD_NAME" value="missing_user_throws_a_CustomMissingUserException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentServiceShould.missing_user_throws_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaymentService" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PaymentServiceShould" />
+      <option name="METHOD_NAME" value="missing_user_throws_exception" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentServiceShould.sends_payment_to_payment_gateway" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PaymentService" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,6 +101,8 @@
       <list>
         <item itemvalue="JUnit.PaymentServiceShould" />
         <item itemvalue="JUnit.PaymentServiceShould.sends_payment_to_payment_gateway" />
+        <item itemvalue="JUnit.PaymentServiceShould.missing_user_throws_exception" />
+        <item itemvalue="JUnit.PaymentServiceShould.missing_user_throws_a_CustomMissingUserException" />
       </list>
     </recent_temporary>
   </component>
@@ -82,11 +116,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582808900451</updated>
-      <workItem from="1582808906852" duration="6229000" />
+      <workItem from="1582808906852" duration="6412000" />
+      <workItem from="1582822889773" duration="2335000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
